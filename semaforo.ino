@@ -9,25 +9,6 @@ void setup() {
   pinMode(LED_RED, OUTPUT);
 }
 
-//Semaforo normal: Rojo - amarillo - verde
-//void loop() {
-//  //Rojo
-//  digitalWrite(LED_RED, HIGH);
-//  delay(1500);
-//  digitalWrite(LED_RED, LOW);
-//
-//  //Amarillo
-//  digitalWrite(LED_YELLOW, HIGH);
-//  delay(1500);
-//  digitalWrite(LED_YELLOW, LOW);
-//
-//  //Verde
-//  digitalWrite(LED_GREEN, HIGH);
-//  delay(1500);
-//  digitalWrite(LED_GREEN, LOW);
-//
-//}
-
 void loop(){
   //Rojo
   digitalWrite(LED_RED, HIGH);
